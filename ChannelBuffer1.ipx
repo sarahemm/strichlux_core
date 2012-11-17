@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="ChannelBuffer1" module="ChannelBuffer1" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2012 08 19 18:57:19.189" version="7.1" type="Module" synthesis="synplify" source_format="Verilog HDL">
+  <Package>
+		<File name="ChannelBuffer1.lpc" type="lpc" modified="2012 08 19 18:57:13.465"/>
+		<File name="ChannelBuffer1.v" type="top_level_verilog" modified="2012 08 19 18:57:13.794"/>
+		<File name="ChannelBuffer1_tmpl.v" type="template_verilog" modified="2012 08 19 18:57:13.809"/>
+		<File name="c:/documents and settings/owner/my documents/lattice/strichluxcore/samplechanneldata1.mem" type="mem" modified="2012 08 19 18:56:59.861"/>
+		<File name="tb_ChannelBuffer1_tmpl.v" type="testbench_verilog" modified="2012 08 19 18:57:13.840"/>
+  </Package>
+</DiamondModule>

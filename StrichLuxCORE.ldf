@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="1.3" title="StrichLuxCORE" device="LFXP2-8E-5TN144C" default_implementation="StrichLuxCORE">
+    <Options/>
+    <Implementation title="StrichLuxCORE" dir="StrichLuxCORE" description="StrichLuxCORE" default_strategy="Strategy1">
+        <Options/>
+        <Source name="StrichLuxCORE.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="SPISlaveInterface.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ModuleController.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ChannelBuffer1.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="CrossbarSwitchInCtl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="CrossbarSwitchOutCtl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="SampleChannelData1.mem" type="Unknown Type" type_short="Unknown">
+            <Options/>
+        </Source>
+        <Source name="StrichLuxCORE.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="StrichLuxCORE.tpf" type="Timing Analysis" type_short="TPF" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="StrichLuxCORE/StrichLuxCORE.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Strategy1.sty"/>
+</BaliProject>

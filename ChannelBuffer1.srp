@@ -1,0 +1,29 @@
+SCUBA, Version Diamond_1.4_Production (87)
+Sun Aug 19 18:57:13 2012
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : E:\lscc\diamond\1.4\ispfpga\bin\nt\scuba.exe -w -n ChannelBuffer1 -lang verilog -synth synplify -bus_exp 7 -bb -arch mg5a00 -type ramdp -device LFXP2-8E -aaddr_width 9 -widtha 8 -baddr_width 9 -widthb 8 -anum_words 512 -bnum_words 512 -writemodeA NORMAL -writemodeB NORMAL -resetmode SYNC -memfile c:/documents and settings/owner/my documents/lattice/strichluxcore/samplechanneldata1.mem -memformat bin -cascade -1 -e 
+    Circuit name     : ChannelBuffer1
+    Module type      : RAM_DP_TRUE
+    Module Version   : 7.1
+    Ports            : 
+	Inputs       : DataInA[7:0], DataInB[7:0], AddressA[8:0], AddressB[8:0], ClockA, ClockB, ClockEnA, ClockEnB, WrA, WrB, ResetA, ResetB
+	Outputs      : QA[7:0], QB[7:0]
+    I/O buffer       : not inserted
+    Memory file      : c:/documents and settings/owner/my documents/lattice/strichluxcore/samplechanneldata1.mem
+    EDIF output      : suppressed
+    Verilog output   : ChannelBuffer1.v
+    Verilog template : ChannelBuffer1_tmpl.v
+    Verilog testbench: tb_ChannelBuffer1_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : ChannelBuffer1.srp
+    Element Usage    :
+         DP16KB : 1
+    Estimated Resource Usage:
+            EBR : 1

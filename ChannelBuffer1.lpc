@@ -1,0 +1,60 @@
+[Device]
+Family=latticexp2
+PartType=LFXP2-8E
+PartName=LFXP2-8E-5TN144C
+SpeedGrade=5
+Package=TQFP144
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP_TRUE
+CoreRevision=7.1
+ModuleName=ChannelBuffer1
+SourceFormat=Verilog HDL
+ParameterFileVersion=1.0
+Date=08/19/2012
+Time=18:57:13
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+AAddress=512
+BAddress=512
+AData=8
+BData=8
+enByte=0
+ByteSize=9
+AadPipeline=0
+BadPipeline=0
+AinPipeline=0
+BinPipeline=0
+AoutPipeline=0
+BoutPipeline=0
+AMOR=0
+BMOR=0
+AInData=Registered
+BInData=Registered
+AAdControl=Registered
+BAdControl=Registered
+MemFile=c:/documents and settings/owner/my documents/lattice/strichluxcore/samplechanneldata1.mem
+MemFormat=bin
+Reset=Sync
+GSR=Enabled
+WriteA=Normal
+WriteB=Normal
+Pad=0
+EnECC=0
+Optimization=Speed
+Pipeline=0
+
+[FilesGenerated]
+c:/documents and settings/owner/my documents/lattice/strichluxcore/samplechanneldata1.mem=mem
